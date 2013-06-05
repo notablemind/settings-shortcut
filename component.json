@@ -1,0 +1,20 @@
+{
+  "name": "settings-shortcut",
+  "repo": "notablemind/settings-shortcut",
+  "description": "Keyboard setting for settings-manager",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "notablemind/keys": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "settings-shortcut.styl"
+  ]
+}
