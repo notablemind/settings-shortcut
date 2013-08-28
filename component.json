@@ -2,10 +2,10 @@
   "name": "settings-shortcut",
   "repo": "notablemind/settings-shortcut",
   "description": "Keyboard setting for settings-manager",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {
-    "notablemind/keys": "*"
+    "notablemind/keys": "1.x"
   },
   "development": {},
   "license": "MIT",
