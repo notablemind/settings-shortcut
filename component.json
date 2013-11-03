@@ -7,7 +7,9 @@
   "dependencies": {
     "notablemind/keys": "*"
   },
-  "development": {},
+  "development": {
+    "notablemind/settings": "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [

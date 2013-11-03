@@ -5,11 +5,15 @@ var keys = require('keys');
 module.exports = {
   validator: function (scope, ctrl) {
     return function (value) {
-      if (keys.validate(value)) {
-        ctrl.$setValidity('shortcut', true);
-        return value;
-      } else {
+      var res = keys.normalize(value);
+      if (res.error) {
         ctrl.$setValidity('shortcut', false);
+        scope.error = res.error;
+      } else {
+        ctrl.$setValidity('shortcut', true);
+      }
+      if (res.value) {
+        return value;
       }
     }
   },
